@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Masallar Kitabı</title>
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <h1>📖 Masallar Kitabı</h1>
+  <p>Rus ve Türkmen Masalları Koleksiyonu</p>
+</header>
+
+<div class="menu">
+  <input id="ara" placeholder="Masal ara...">
+  <button onclick="gece()">🌙 Gece</button>
+</div>
+
+<div id="liste"></div>
+
+<div id="oku">
+<div style="text-align: center; padding-top: 20px;">
+  <button onclick="kapat()">← Geri</button>
+  <button onclick="boyut(-2)">A−</button>
+  <button onclick="boyut(2)">A+</button>
+  <div id="metin"></div>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
